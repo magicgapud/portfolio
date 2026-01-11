@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px dotted red; */
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(34, 33, 36);
+}
+
+
+/* for laptop or pc */
+@media (min-width: 1024px) {
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100vw;
+        z-index: 999;
+    }
+
+
+    #nav .nav-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 150px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    #nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        margin: 5px;
+        width: 30vw;
+    }
+
+
+    #nav ul li a {
+        pointer-events: auto;
+    }
+
+
+    #home {
+        height: 100svh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home .home-style-item {
+        height: 80vh;
+        width: 40vw;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #home .home-style-item div {
+        margin: 10px;
+    }
+
+    #home .home-style-item p {
+        margin: 10px;
+        width: 570px;
+        position: absolute;
+    }
+
+    #home .home-style-item #cursive {
+        font-size: 80px;
+        top: 100px;
+        left: 50px;
+        width: 570px;
+        z-index: 0;
+        opacity: 50%;
+        color: aqua;
+        font-family: cursive;
+    }
+
+    #home .home-style-item #portfolio {
+        font-size: 60px;
+        top: 110px;
+        left: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+        z-index: 1;
+        opacity: 50%;
+        width: 570px;
+        height: 100px;
+    }
+
+    #home .home-style-item #buttons {
+        width: 40vw;
+        padding-left: 50px;
+    }
+
+    #home .home-style-item div .btn {
+        margin: 10px;
+        padding: 10px 10px;
+        width: 100px;
+        background-color: teal;
+        border-radius: 5px;
+    }
+
+    #home .home-style-item #name {
+        position: relative;
+        width: 40vw;
+        height: 30vh;
+    }
+
+    #home .home-style-item #intro {
+        position: relative;
+        width: 40vw;
+        height: 10vh;
+        padding-left: 50px;
+    }
+
+    #arrow {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        font-size: 20px;
+    }
+
+
+
+    #container {
+        display: flex;
+        overflow-x: hidden;
+
+    }
+
+    #container .section {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+
+
+
+    /* image with blob */
+    .blob-wrapper {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        display: grid;
+        place-items: center;
+    }
+
+    /* Base blob */
+    .blob {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        opacity: 0.65;
+        filter: blur(1px);
+        animation: morph 12s ease-in-out infinite;
+    }
+
+    /* Individual blobs */
+    .blob1 {
+        background: aqua;
+        animation-duration: 14s;
+    }
+
+    .blob2 {
+        background: teal;
+        animation-duration: 18s;
+    }
+
+    .blob3 {
+        background: #38bdf8;
+        animation-duration: 22s;
+    }
+
+    /* Morphing animation */
+    @keyframes morph {
+        0% {
+            border-radius: 60% 40% 50% 50% / 60% 30% 70% 40%;
+        }
+
+        /* 33% {
+            border-radius: 50% 60% 40% 70% / 40% 60% 50% 30%;
+        } */
+
+        66% {
+            border-radius: 70% 30% 60% 40% / 50% 70% 30% 60%;
+        }
+
+        100% {
+            border-radius: 60% 40% 50% 50% / 60% 30% 70% 40%;
+        }
+    }
+
+    /* Center photo (does NOT morph) */
+    .center-photo {
+        position: relative;
+        z-index: 10;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
+
+}

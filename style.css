@@ -97,6 +97,8 @@ body {
         justify-content: center;
         align-items: center;
         scroll-snap-align: start;
+        /* position: sticky; */
+        /* top: 0; */
     }
 
     #home {
@@ -114,6 +116,18 @@ body {
         justify-content: center;
         align-items: center;
         position: fixed;
+        animation: imageAnimation both;
+        /* animation-timeline: view(); */
+    }
+
+     @keyframes imageAnimation {
+        from {
+            transform: translateX(-500px);
+        }
+
+        to {
+            transform: translateX(0);
+        }
     }
 
     #home .image img {
@@ -127,7 +141,21 @@ body {
         width: 500px;
         position: absolute;
         left: 170px;
+        animation: toLeft 1s;
+        /* animation-timeline: view(); */
 
+    }
+
+    @keyframes toLeft {
+        from {
+            opacity: 0;
+            transform: translateX(500px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     #home .right {
@@ -135,7 +163,21 @@ body {
         width: 500px;
         position: absolute;
         left: 1020px;
+        animation: toRight 1s;
+        /* animation-timeline: view(); */
 
+    }
+
+    @keyframes toRight {
+        from {
+            opacity: 0;
+            transform: translateX(-500px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     #home .right div {

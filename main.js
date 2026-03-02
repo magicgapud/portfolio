@@ -3,13 +3,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
   /*------------------lenis---------------*/
 
-  const lenis = new Lenis({ smooth: true });
-  lenis.on("scroll", ScrollTrigger.update);
-  gsap.ticker.add((time) => {
-    lenis.raf(time* 10000);
-  });
+  // const lenis = new Lenis({ smooth: true });
+  // lenis.on("scroll", ScrollTrigger.update);
+  // gsap.ticker.add((time) => {
+  //   lenis.raf(time* 1000);
+  // });
 
-//   gsap.ticker.lagSmoothing(0);
+  gsap.ticker.lagSmoothing(0);
 
   // let tl = gsap.timeline({
 
@@ -61,29 +61,19 @@ const revealtl = gsap.timeline({
 revealtl.to(".first", reveal())
 .to(".second", reveal())
 .to(".third", reveal())
-.to(".fourth", reveal())
-.to(".first", hide())
-.to(".second", hide())
-.to(".third", hide())
-.to(".fourth", hide());
+.to(".fourth", reveal());
+
 
 function reveal(){
     return{
-        duration: 2,
+        duration: 1,
         opacity: 1,
         clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
         ease:"circ.out",
     }
 }
 
-function hide(){
-    return{
-        duration: 2,
-        opacity: 0,
-        clipPath: "polygon(0% 0%, 0% 0%, 0% 100%, 0 100%)",
-        ease:"circ.out",
-    }
-}
+
 
 
 });

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "company": "Computer Professionals Inc.",
+    "companyLocation": "Remote, Pasig City, Philippines",
+    "date": "March 2023 - Present",
+    "role":"System Analyst",
+    "roleActivities":{
+      "activity1":"Created detailed specifications for system enhancements.",
+      "activity2":"Assessed Service Request tickets to validate reported client issues. Investigated client-reported errors by replicating issues, analyzing source code, and reviewing database configurations.",
+      "activity3":"Delivered temporary solutions or provided advanced releases to address client issues promptly.",
+      "activity4":"Conducted QA testing to ensure the quality and reliability of solutions developed by the team.",
+      "activity5":"Analyzed user requirements to design tailored system solutions, enhancing data accuracy and improving responsiveness across internal platforms."
+    }
+  },
+{
+    "id": 2,
+    "company": "Computer Professionals Inc",
+    "companyLocation": "Remote, Pasig City, Philippines",
+    "date": "August 2022 - March 2023",
+    "role":"Developer Trainee",
+    "roleActivities":{
+      "activity1":"Gained hands-on experience in Java development.",
+      "activity2":"Learned and applied PL/SQL programming fundamentals.",
+      "activity3":"Learned and applied PL/SQL programming fundamentals."
+    }
+  },
+  {
+    "id": 3,
+    "company": "Ecossential Foods Corporation",
+    "companyLocation": "In person, Pasig City, Philippines",
+    "date": "March 2020 - July 2022",
+    "role":"Internal Audit Specialist",
+    "roleActivities":{
+      "activity1":"Reviewing business processes to recommend improvements that strengthen controls, reduce risk, and enhance operational performance.",
+      "activity2":"Carried out day-day-day duties accurately and efficiently.",
+      "activity3":"Proved successful working within tight deadlines and fast-paced atmosphere.",
+      "activity4":"Completed paperwork, recognizing discrepancies and promptly addressing for resolution."
+    }
+  },
+   {
+    "id": 4,
+    "company": "Streetcorner Lending Corporation",
+    "companyLocation": "In person, Pasig City, Philippines",
+    "date": "July 2019 - March 2020",
+    "role":"Finance-Accounting Officer",
+    "roleActivities":{
+      "activity1":"Prepared monthly reports for payment, account reconciliations and financial statements.",
+      "activity2":"Mitigated accounting risks through identification and improvement of process inefficiencies.",
+      "activity3":"Gathered financial information, prepared documents, and closed books."
+    }
+  },
+     {
+    "id": 5,
+    "company": "P.F. Tatunay & CPAs",
+    "companyLocation": "In person, Quezon  City, Philippines",
+    "date": "July 2017 - July 2019",
+    "role":"External Auditor",
+    "roleActivities":{
+      "activity1":"Examining financial statements to determine whether they are prepared fairly and in accordance with applicable accounting standards",
+      "activity2":"Planning and performing audit procedures, including risk assessment, testing of transactions, and substantive testing.",
+      "activity3":"Assessing internal controls to evaluate the reliability of financial reporting and identify control weaknesses.",
+      "activity4":"Verifying compliance with laws, regulations, and contractual obligations relevant to financial reporting",
+      "activity5":"Identifying material misstatements, whether due to error or fraud, and recommending corrective actions."
+    }
+  }
+]

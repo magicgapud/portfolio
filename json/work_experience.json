@@ -5,6 +5,7 @@
     "companyLocation": "Remote, Pasig City, Philippines",
     "date": "March 2023 - Present",
     "role":"System Analyst",
+    "image":"",
     "roleActivities":{
       "activity1":"Created detailed specifications for system enhancements.",
       "activity2":"Assessed Service Request tickets to validate reported client issues. Investigated client-reported errors by replicating issues, analyzing source code, and reviewing database configurations.",
@@ -19,6 +20,7 @@
     "companyLocation": "Remote, Pasig City, Philippines",
     "date": "August 2022 - March 2023",
     "role":"Developer Trainee",
+    "image":"",
     "roleActivities":{
       "activity1":"Gained hands-on experience in Java development.",
       "activity2":"Learned and applied PL/SQL programming fundamentals.",
@@ -31,6 +33,7 @@
     "companyLocation": "In person, Pasig City, Philippines",
     "date": "March 2020 - July 2022",
     "role":"Internal Audit Specialist",
+    "image":"",
     "roleActivities":{
       "activity1":"Reviewing business processes to recommend improvements that strengthen controls, reduce risk, and enhance operational performance.",
       "activity2":"Carried out day-day-day duties accurately and efficiently.",
@@ -44,6 +47,7 @@
     "companyLocation": "In person, Pasig City, Philippines",
     "date": "July 2019 - March 2020",
     "role":"Finance-Accounting Officer",
+    "image":"",
     "roleActivities":{
       "activity1":"Prepared monthly reports for payment, account reconciliations and financial statements.",
       "activity2":"Mitigated accounting risks through identification and improvement of process inefficiencies.",
@@ -56,6 +60,7 @@
     "companyLocation": "In person, Quezon  City, Philippines",
     "date": "July 2017 - July 2019",
     "role":"External Auditor",
+    "image":"",
     "roleActivities":{
       "activity1":"Examining financial statements to determine whether they are prepared fairly and in accordance with applicable accounting standards",
       "activity2":"Planning and performing audit procedures, including risk assessment, testing of transactions, and substantive testing.",
